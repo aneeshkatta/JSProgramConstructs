@@ -9,11 +9,11 @@ for (i = 0; i < array.length; i++) {
 }
 let storeArray = array;
 for (i = 0; i < storeArray.length; i++) {
-    console.log("At index: " + i + " storeArray before sort value: " + storeArray[i]);
+    console.log("At index: " + i + " StoreArray before sort value: " + storeArray[i]);
 }
 let xarray = storeArray.slice(0).sort();
 for (i = 0; i < xarray.length; i++) {
-    console.log("At index: " + i + " after sort value: " + xarray[i]);
+    console.log("At index: " + i + " After sort value: " + xarray[i]);
 }
 console.log("Second Largest " + xarray[xarray.length-2]);
 console.log("Second smallest " + xarray[1]);
