@@ -7,3 +7,8 @@ for (i = 0; i < array.length; i++) {
 for (i = 0; i < array.length; i++) {
     console.log("At index: "+i+" value: "+array[i]);
 }
+let storeArray=array;
+for (i = 0; i < storeArray.length; i++) {
+    console.log("At index: "+i+" storeArray value: "+storeArray[i]);
+}
+
