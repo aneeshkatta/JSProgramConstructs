@@ -1,14 +1,13 @@
-// var prompt =require('prompt-sync')();
-// const num = prompt("What is your number for prime factorization? ");
-let num=24;
-var x=parseInt(num);
-let array=new Array();
-let store=array;
+let arr=new Array();
 
-for (let i = 0; i < x; i++) {
-    if (num % i == 0 && num%i!=undefined) {
-        array.push(i);       
-    }  
+for(i = 1; i <= 100; i++)
+{
+    if(i % 11 == 0)
+    {
+        arr.push(i);
+    }
 }
-for (let i = 0; i < store.length; i++) {
-console.log(""+store[i]);}
+for(i=0;i<arr.length;i++)
+{
+    console.log(arr[i]);
+}
