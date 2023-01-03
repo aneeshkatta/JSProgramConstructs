@@ -1,16 +1,8 @@
 var prompt =require('prompt-sync')();
-const num = prompt("What is your number for prime factorization? ");
-let array=new Array(num);
-let store= new Array();
-
-for (let i = 0; i <= num; i++) {
-    if (num % i == 0) {
-        array[i] = i;  
-      
-    }  
-    for (let i = 0; i <= store.length; i++) {
-        if(array!=undefined)
-    store=array; }  
-}
-for (let i = 0; i <= store.length; i++) {
-console.log(""+store[i]);}
+const num =  parseInt(prompt("What is your posive int number  "));
+var prompt =require('prompt-sync')();
+const num1 =  parseInt(prompt("What is your negative int number  "));
+var prompt =require('prompt-sync')();
+const num2 =  parseInt(prompt("What is any number positive or negative  "));
+let sum = num+num1+num2;
+console.log("sum is :"+sum);
